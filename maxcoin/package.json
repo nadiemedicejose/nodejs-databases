@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.20.0",
+    "ioredis": "^4.27.9",
     "mongodb": "^4.1.2"
   },
   "devDependencies": {
