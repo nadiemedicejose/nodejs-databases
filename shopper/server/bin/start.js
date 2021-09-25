@@ -10,7 +10,7 @@ async function connectToMongoose() {
   return mongoose.connect(config.mongodb.url, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    // Removed { useCreateIndex: true } bc is not supported
+    // Removed { useCreateIndex: true, useFindAndModify: false } bc is not supported
   })
 }
 
