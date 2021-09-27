@@ -13,7 +13,7 @@ class BasketService {
   }
 
   async remove(itemId) {
-    return this.client.hdrel(this.key, itemId)
+    return this.client.hdel(this.key, itemId)
   }
 }
 
